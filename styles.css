@@ -71,14 +71,12 @@ footer {
 }
 
 img {
-    width: 95%; /* Adjust the width as needed */
-    max-width: 600px; /* Set a maximum width if desired */
-    height: auto; /* Maintain the aspect ratio */
+    width: 95%; 
+    max-width: 600px; 
+    height: auto; 
 }
 
 .content {
     padding: 20px;
     text-align: center;
-    color: #fff; /* Set text color to contrast with the background */
-
-/* Add more styles as needed for your specific design */
+    color: #fff; 
