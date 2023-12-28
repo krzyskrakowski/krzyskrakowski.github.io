@@ -5,35 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Krzysztof Krakowski - Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
+        img {
+            float: right; /* Change to 'left' if you want the image on the left */
+            margin: 20px;
+        }
+        p {
+            text-align: justify;
+        }
+      
+        ul {
+            text-align: justify;
+            list-style-position: outside; /* Ensure that the bullet points are outside the content area */
+            padding: 0; /* Remove default padding on the ul element */
         }
 
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 1em;
+        li {
+            display: inline-block; /* Display list items as inline blocks for justification */
+            
+        }
+        .centered-line {
             text-align: center;
-        }
-
-        main {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 5px;
-        }
-
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #333;
-            color: #fff;
         }
     </style>
 </head>
@@ -41,10 +34,12 @@
 <body>
     <header>
         <h1>Krzysztof Krakowski</h1>
-        <p>Welcome to My Personal Website</p>
+        <p class="centered-line">Welcome to My Personal Website</p>
     </header>
 
     <main>
+        <section>                <img src="liban.jpeg" alt="Fieldwork">
+        </section>
         <section>
             <h2>About Me</h2>
             <p>I am assistant professor (lecturer) of political science at <b>King's College London</b> in the Department of Political Economy. I received my PhD in 2018 from the European University Institute, where I was awarded Josip Peić Prize for the best thesis in Political and Social Sciences. My research focuses on comparative politics and political economy. I am specially interested in political and intergroup conflict. Please find my <b>CV</b> <a href="https://drive.google.com/file/d/1AoJz_DSg3zMr32tzj1xDfIcB1UxWoTSd/view?usp=sharing"style="color:#5C4033;">here</a>. </p>
@@ -67,7 +62,7 @@
 
 
         <section>
-            <h2>Working papers</h2>
+            <h2>Working Papers</h2>
             <p>
                 <ul>
                 <li>"Elite Murder and Resistance” (with M. Schaub). <a href="https://www.wider.unu.edu/publication/elite-murder-and-popular-resistance" style="color:#8B0000;">Working paper</a> </li>
