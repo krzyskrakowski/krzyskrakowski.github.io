@@ -71,7 +71,7 @@ footer {
 }
 
 img {
-    width: 90%; /* Adjust the width as needed */
+    width: 95%; /* Adjust the width as needed */
     max-width: 600px; /* Set a maximum width if desired */
     height: auto; /* Maintain the aspect ratio */
 }
