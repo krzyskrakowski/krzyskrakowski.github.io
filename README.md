@@ -1,1 +1,1 @@
-# Personal website of Krzysztof Krakowski, Lecturer in Political Economy in the Department of Political Economy at King's College London. 
+# Personal website of Krzysztof Krakowski, Department of Social Sciences and Humanities at CUNEF University. 
